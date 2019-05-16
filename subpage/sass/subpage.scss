@@ -1,0 +1,76 @@
+@import 'public';
+#blank,#product,#details{
+  width: 1150px;
+  margin: 0 auto; }
+
+//blank
+#blank{
+   height:46px;
+   border-bottom:1px solid #e2e9e5;
+   margin-bottom:25px;
+}
+//内容
+#content{
+    width:1150px;
+    height:2894px;
+    background:#FFFFFF;
+    margin:0 auto;
+    .content-l{
+        width:934px;
+        float:left;
+        height:2894px;
+        border:1px solid gray;
+     }  
+   .content-r{
+        width:178px;
+        height:748px;
+        float:right;
+        border:1px solid #EAEDFF;
+        h2{
+          height:35px;
+          background: #E2E5E9; 
+          text-align: center;
+          font-size:14px;
+          color:#666;
+          line-height: 35px; 
+        }
+        .tag{
+            height:197px;
+            padding:20px 0;
+            border-bottom:1px solid #EAEDFF;
+            img{
+                width:150px;
+                height:150px;
+                display: block;
+                margin:0 auto;
+            }
+            li{
+                width:150px;
+                height:47px;
+                padding-top:10px;
+                font-size:12px;
+                color:#DC4F45;
+                text-align: center;
+                margin: 0 auto;
+                
+                a{
+                    display: block;
+                    font-size:14px;
+                    color:#666;
+                    line-height: 18px;
+                }
+            }
+        }
+        .tag3{
+            border-bottom: none;
+        }
+    } 
+}
+
+
+
+
+
+
+
+

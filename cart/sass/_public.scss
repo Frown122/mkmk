@@ -1,0 +1,544 @@
+@charset "utf-8";
+body,ol,ul,li,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{font-family: "微软雅黑";}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:normal}
+a,u{text-decoration: none;}
+b,strong{font-weight:normal}
+i,em{font-style:normal}
+ul,ol,li{list-style:none;}
+img{display:block;border:0;}
+input{outline:none;border:0;}
+.clear_fix:after{content:".";clear:both;display:block;height:0;overflow:hidden;visibility: hidden;}
+.clear_fix{zoom:1;}
+
+#top,#order,#multiple,#cont,#cont1,#help .help-c,#bottom .bot-cont  {
+  width: 1150px;
+  margin: 0 auto; }
+
+//顶部样式
+/*head*/
+#BigBox {
+  width: 100%;
+  border-bottom: 1px solid #ddd; }
+
+#top {
+  height: 30px;
+  font-size: 12px; }
+
+#top-l {
+  display: block;
+  width: 220px;
+  height: 30px;
+  margin-left: 100px;
+  text-align: center;
+  line-height: 31px;
+  float: left;
+  border: 1px solid #eee;
+  border-bottom-color: white;
+  border-top: 0; }
+
+#top-l a {
+  color: #dc4f45; }
+
+#top-r {
+  float: right;
+  height: 30px;
+  width: 439px;
+  line-height: 30px; }
+
+#top-r a {
+  color: #999;
+  padding: 0 8px 0 12px;
+  background: url(../img/sx.png) no-repeat 0 2px; }
+
+#top-r .top-r1 {
+  background: none; }
+
+/*order*/
+#order {
+  height: 99px; }
+
+#order-r {
+  width: 550px;
+  height: 99px;
+  float: right; }
+
+#order-r img {
+  width: 70px;
+  height: 70px;
+  margin: 19px 0 0 33px;
+  display: block;
+  float: left; }
+
+#order-phone {
+  font-size: 18px;
+  color: #dc4f45;
+  float: left;
+  margin-top: 40px;
+  line-height: 42px; }
+
+#order-cart {
+  display: block;
+  float: right;
+  background: url(../img/cart.png) no-repeat left;
+  font-size: 18px;
+  color: #dc4f45;
+  width: 101px;
+  margin-top: 40px;
+  line-height: 42px;
+  padding-left: 32px; }
+
+/*nav*/
+#nav {
+  width: 100%;
+  background: #666; }
+
+#nav-cont {
+  width: 1190px;
+  height: 62px;
+  margin: 0 auto; }
+
+#nav-cont a {
+  width: 160px;
+  height: 62px;
+  line-height: 62px;
+  text-align: center;
+  float: left;
+  font-size: 16px;
+  color: white;
+  margin-left: 10px; }
+
+#nav-cont a:hover {
+  background: url(../img/nav1.png) no-repeat center;
+  color: #DC4F45; }
+
+/*content*/
+#content {
+  width: 100%;
+  height: 1589px;
+  background: #e2e5e9; }
+
+//底部样式
+/*help*/
+#help {
+  height: 271px;
+  background-color: #f8f8f8;
+  margin-top: 20px; }
+
+#help .help-c {
+  height: 215px; }
+
+#help .sideL {
+  width: 700px;
+  float: left; }
+
+#help .sideL1 {
+  float: left;
+  width: 170px;
+  height: 200px;
+  border-right: 1px solid #666;
+  padding: 15px 15px 0 0;
+  text-align: right; }
+
+#help .sideL1 h3 {
+  font-size: 12px;
+  line-height: 24px;
+  padding-bottom: 17px;
+  color: #666; }
+
+#help .sideL1 li .shop:hover {
+  color: #DC4F45; }
+
+#help .sideL3 {
+  float: left;
+  width: 180px;
+  height: 200px;
+  border-right: 1px solid #666;
+  padding: 15px 15px 0 0;
+  text-align: right; }
+
+#help .sideL1 li a {
+  font-size: 12px;
+  color: #666;
+  line-height: 21px; }
+
+#help .sideR {
+  width: 415px;
+  height: 200px;
+  float: right;
+  padding-top: 15px;
+  font-size: 12px;
+  color: #666; }
+
+#help .sideR p {
+  line-height: 18px; }
+
+#help .sideR img {
+  width: 116px;
+  height: 116px; }
+
+/*bottom*/
+#bottom {
+  background: #555; }
+
+#bottom .bot-cont {
+  padding-top: 25px;
+  height: 96px; }
+
+#bottom .bot-cont .hot {
+  height: 32px;
+  background: white;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 21px; }
+
+#bottom .bot-cont .hot h3 {
+  color: #999;
+  font-size: 12px; }
+
+#bottom .bot-cont .hot span {
+  font-size: 18px;
+  color: #f1c232; }
+
+#bottom .bot-cont .num {
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+  line-height: 18px; }
+
+/*offside*/
+#offside {
+  right: 0px;
+  bottom: 0;
+  top: auto;
+  left: auto;
+  position: fixed;
+  width: 35px;
+  height: 100%;
+  background: black;
+  z-index: 1; }
+
+/*上部侧边栏*/
+#offside .itemT {
+  width: 35px;
+  height: 190px;
+  position: absolute;
+  top: 100px;
+   background:black; }
+
+#offside .itemT .me {
+  position: relative;
+  width: 35px;
+  height: 40px;
+  display: block;}
+
+#offside .range {
+  background: #DC4F45;
+  position: absolute;
+  height: 40px;
+  width: 90px;
+  color: white;
+  text-align:center;
+  line-height:40px;
+  font-size: 13px;
+  right: -100px;
+  transition:0.7s;
+  z-index:-1;
+  border-radius: 20px 0 0 20px;}
+
+#offside .ico {
+  display: block;
+  width: 35px;
+  height: 40px;
+ }
+
+#offside .itemT .ic1 {
+  background: url(../-img/ico.png) no-repeat 0 0px; }
+
+#offside .itemT .ic2 {
+  background: url(../-img/ico.png) no-repeat 0 -45px; }
+
+#offside .itemT .car {
+  width: 35px;
+  height: 110px; }
+
+#offside .itemT .ic3 {
+  height: 33px;
+  background: url(../-img/ico.png) no-repeat 0 -140px; }
+
+#offside .itemT .cart {
+  margin-top:70px;}
+
+#offside .itemT .cart0 {
+  display: block;
+  width: 18px;
+  color: white;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 5px; }
+
+#offside .itemT .ic4 {
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin-top: 5px;
+  line-height: 18px;
+  color:white;
+  text-align:center;
+  background-color: #DC4F45;
+  border-radius: 50%; }
+
+/*下部侧边栏*/
+#offside .itemB {
+  width: 35px;
+  height: 160px;
+  position: absolute;
+  bottom: 100px;
+   background:black;  }
+
+#offside .itemB .com {
+  position: relative;
+  width: 35px;
+  height: 40px;
+  display: block; }
+
+#offside .itemB .qr{
+    position: absolute;
+  height: 70px;
+  width: 70px;
+  right: -100px;
+  margin-top:-35px;
+  z-index:-1;}
+
+#offside .itemB .ic4 {
+  background: url(../-img/ico.png) no-repeat 0 -182px; }
+
+#offside .itemB .ic5 {
+  background: url(../-img/ico.png) no-repeat 0 -272px; }
+
+#offside .itemB .hot{
+    width:110px;}
+#offside .itemB .ic6 {
+  background: url(../-img/ico.png) no-repeat 0 -314px; }
+
+#offside .itemB .get {
+  width: 35px;
+  height: 40px;
+  display: block; }
+
+#offside .itemB .ic7 {
+  background: url(../-img/ico.png) no-repeat 0 -360px; }
+
+#offside .itemB .cart {
+  color: white;
+  font-size: 13px;}
+
+/*过渡效果*/ 
+#offside .itemT .me:hover .range{right:35px;}
+#offside .itemT .car:hover .range{right:35px;}
+#offside .itemB .com:hover .range{right:35px;}
+#offside .itemB .com:hover .qr{right:35px;}
+
+//购物车弹出框
+#case{
+  background:white;
+  position: absolute;
+  height:100%;
+  width: 280px;
+  right: -315px;
+  bottom: 0;
+  z-index:-1;
+  top: auto;
+  left: auto;
+  
+}
+#case .case0{
+    position:absolute;
+    height:96%;
+    width:260px;
+    border:2px solid gainsboro;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+/*service */
+#service {
+  display: block;
+  right: 2px;
+  bottom: 2px;
+  left: auto;
+  top: auto;
+  position: fixed;
+  z-index: 1003; }
+  
+/*offside*/
+#offside {
+  right: 0px;
+  bottom: 0;
+  top: auto;
+  left: auto;
+  position: fixed;
+  width: 35px;
+  height: 100%;
+  background: black;
+  z-index: 1; }
+
+/*上部侧边栏*/
+#offside .itemT {
+  width: 35px;
+  height: 190px;
+  position: absolute;
+  top: 100px;
+   background:black; }
+
+#offside .itemT .me {
+  position: relative;
+  width: 35px;
+  height: 40px;
+  display: block;}
+
+#offside .range {
+  background: #DC4F45;
+  position: absolute;
+  height: 40px;
+  width: 90px;
+  color: white;
+  text-align:center;
+  line-height:40px;
+  font-size: 13px;
+  right: -100px;
+  transition:0.7s;
+  z-index:-1;
+  border-radius: 20px 0 0 20px;}
+
+#offside .ico {
+  display: block;
+  width: 35px;
+  height: 40px;
+ }
+
+#offside .itemT .ic1 {
+  background: url(../img/ico.png) no-repeat 0 0px; }
+
+#offside .itemT .ic2 {
+  background: url(../img/ico.png) no-repeat 0 -45px; }
+
+#offside .itemT .car {
+  width: 35px;
+  height: 110px; }
+
+#offside .itemT .ic3 {
+  height: 33px;
+  background: url(../img/ico.png) no-repeat 0 -140px; }
+
+#offside .itemT .cart {
+  margin-top:70px;}
+
+#offside .itemT .cart0 {
+  display: block;
+  width: 18px;
+  color: white;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 5px; }
+
+#offside .itemT .ic4 {
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin-top: 5px;
+  line-height: 18px;
+  text-align:center;
+  background-color: #DC4F45;
+  border-radius: 50%; }
+
+/*下部侧边栏*/
+#offside .itemB {
+  width: 35px;
+  height: 160px;
+  position: absolute;
+  bottom: 50px;
+   background:black;  }
+
+#offside .itemB .com {
+  position: relative;
+  width: 35px;
+  height: 40px;
+  display: block; }
+
+#offside .itemB .qr{
+    position: absolute;
+  height: 70px;
+  width: 70px;
+  right: -100px;
+  margin-top:-35px;
+  z-index:-1;}
+
+#offside .itemB .ic4 {
+  background: url(../img/ico.png) no-repeat 0 -182px; }
+
+#offside .itemB .ic5 {
+  background: url(../img/ico.png) no-repeat 0 -272px; }
+
+#offside .itemB .hot{
+    width:110px;}
+#offside .itemB .ic6 {
+  background: url(../img/ico.png) no-repeat 0 -314px; }
+
+#offside .itemB .get {
+  width: 35px;
+  height: 40px;
+  display: block; }
+
+#offside .itemB .ic7 {
+  background: url(../img/ico.png) no-repeat 0 -360px; }
+
+#offside .itemB .cart {
+  color: white;
+  font-size: 13px;}
+
+/*过渡效果*/ 
+#offside .itemT .me:hover .range{right:35px;}
+#offside .itemT .car:hover .range{right:35px;}
+#offside .itemB .com:hover .range{right:35px;}
+#offside .itemB .com:hover .qr{right:35px;}
+
+//购物车弹出框
+#case{
+  background:white;
+  position: absolute;
+  height:100%;
+  width: 280px;
+  right: -315px;
+  bottom: 0;
+  z-index:-1;
+  top: auto;
+  left: auto;
+  
+}
+#case .case0{
+    position:absolute;
+    height:96%;
+    width:260px;
+    border:2px solid gainsboro;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+/*service */
+#service {
+  display: block;
+  right: 2px;
+  bottom: 2px;
+  left: auto;
+  top: auto;
+  position: fixed;
+  z-index: 1003; }

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="./css/register.min.css"/>
+		<link rel="stylesheet" type="text/css" href="./css/jquery.idcode.css"/>
+	</head>
+	<body>
+		<!--head-->
+		<div id="BigBox">
+			<div id="top">
+				<span id="top-l">
+					您好！ 请 <a href="./register.html">登录</a> 或 <a href="../login/login.html">加入会员</a>
+				</span>
+				<div id="top-r">
+					<a href="#" class="top_r1">礼金卡充值</a>
+					<a href="#">如何订购</a>
+					<a href="#">配送范围</a>
+					<a href="#">提前预约时间</a>
+					<a href="#">关于米卡米卡蛋糕</a>
+				</div>
+			</div>
+		</div>
+		<!--order-->
+		<div id="order">
+			<div id="order-r">
+				<img src="./img/code.png"/>
+				<span id="order-phone">订购电话：400-606-7757</span>
+				<span id="order-cart">购物车（0）</span>
+			</div>
+		</div>
+		<!--nav-->
+		<div id="nav">
+			<div id="nav-cont">
+				<ul>
+					<li><a href="../index/index.html">首页</a></li>
+					<li><a href="../subpage/subpage.html">全部蛋糕</a></li>
+					<li><a href="#">下午茶19国</a></li>
+					<li><a href="#">企业专区</a></li>
+					<li><a href="#">蛋糕资讯</a></li>
+					<li><a href="#">会员中心</a></li>
+					<li><a href="#">关于米卡米卡</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--register-->
+		<div id="register">
+			<div class="regBox">
+				<!--账号登录-->
+				<div class="regBox-l">
+					<div class="reg">
+						<h2>账号密码登录</h2>
+						<h2>手机验证码登录</h2>
+					</div>
+					<div class="num">
+						<form action="" method="post">
+							<input type="text" name="" id="" placeholder="请输入您的账号"/>
+							<input type="text" name="" id="" placeholder="输入密码"/>	
+							<input type="submit" value="登&nbsp;录"/>
+							<div class="check">
+								<p>
+									<input type="checkbox" checked="checked" style="vertical-align:middle";/>记住账号</p>
+								<a href="#">忘记密码</a>
+								<a href="../login/login.html">去注册</a>
+							</div>
+						</form>	
+					</div>
+				</div>
+				<!--手机号登录-->
+				<div class="regBox-r">
+					<div class="reg">
+						<h2>账号密码登录</h2>
+						<h2>手机验证码登录</h2>
+					</div>
+					<div class="num">
+						<form action="" method="post">
+							<input type="text" name="" id="" placeholder="请输入您的手机号"/>
+							<input type="text" id="Txtidcode" class="txtVerification" placeholder="请输入图片字符"/>
+							<div id="idcode">
+								<div id="ehong-code" class="ehong-idcode-val ehong-idcode-val3" href="#" onblur="return false" onfocus="return false" oncontextmenu="return false" onclick="$.idcode.setCode()">
+									<font color="#243F5F">g</font>
+									<font color="#18975F">N</font>
+									<font color="18975F">F</font>
+									<font color="#243F5F">L</font>
+									<font color="#707F02">9</font>
+								</div>
+								
+							</div>
+							<!--<input type="button" name="btns" id="btns" value="验证" />-->
+							<div><button type="button" id="btns">验证</button></div>
+							<!--<input type="text" name="" id="" placeholder="请输入图片字符"/>-->
+							<!--<img src="./img/yz.png"/><a href="#" class="xh"></a>-->
+							<input type="text" name="" id="" placeholder="请输入验证码"/>
+							<input type="button" name="" id="" value="获取验证码" />
+							
+							<input type="submit" value="登&nbsp;录"/>
+							
+							<div class="check">
+								<p>
+									<input type="checkbox" checked="checked" style="vertical-align:middle";/>记住账号</p>
+								<a href="#">忘记密码</a>
+								<a href="../login/login.html">去注册</a>
+							</div>
+						</form>	
+					</div>
+				</div>
+			</div>	
+		</div>
+		<!--help-->
+		<div id="help">
+			<div class="help-c">
+				<div class="sideL">
+					<div class="sideL1">
+						<h3>帮助中心</h3>
+						<ul>
+							<li><a href="#">如何订购</a></li>
+							<li><a href="#">配送范围</a></li>
+							<li><a href="#">会员升级</a></li>
+							<li><a href="#">支付方式</a></li>
+							<li><a href="#">礼金卡使用说明</a></li>
+						</ul>
+					</div>
+					<div class="sideL1">
+						<h3>公司简介</h3>
+						<ul>
+							<li><a href="#">关于米卡米卡</a></li>
+							<li><a href="#">品牌创始人</a></li>
+							<li><a href="#">加入我们</a></li>
+							<li><a href="#">最新新闻</a></li>
+							<li><a href="#">明星大咖</a></li>
+							<li><a href="#">新闻动态</a></li>
+						</ul>
+					</div>
+					<div class="sideL1 sideL3">
+						<h3>让我们成为朋友</h3>
+						<ul>
+							<li><a href="#" class="shop">新浪微博</a></li>
+							<li><a href="#" class="shop">天猫店铺</a></li>
+							<li><a href="#" class="shop">京东店铺</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="sideR">
+					嗨！~你好，听说你喜欢我们好久了，来交个朋友吧~
+					<p>扫描下方二维码</p>
+					<p>关注我们的微信公众号</p>
+					<p>微信下单有新人专享优惠券哦！</p>
+					<p>&nbsp;</p>
+					<div class="ad-pic">
+						<img src="./img/code.png"/>						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--bottom-->
+		<div id="bottom">
+			<div class="bot-cont">
+				<div class="hot">
+					<h3>订购热线：<span>400-606-7757</span>(周一至周日 08:00-20:00)</h3>
+				</div>
+				<div class="num">京ICP备12021305号-2</div>
+			</div>
+		</div>
+	<script src="./js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="./js/register.js" type="text/javascript" charset="utf-8"></script>
+	<script src="./js/jquery.idcode.js"></script>
+
+	</body>
+</html>

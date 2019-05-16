@@ -1,0 +1,181 @@
+@import 'public';
+#top,#order,#multiple,#cont,#cont1,#help .help-c,#bottom .bot-cont{
+  width: 1150px;
+  margin: 0 auto; 
+}
+#register{
+    background:url(../img/bj.jpg) no-repeat center;
+    .regBox{
+       width: 50px;
+       height:610px; 
+       padding-top:110px;
+       //账号登录
+       .regBox-l{
+            width:301px;
+            height:280px;
+            background:white;
+            border:1px solid #E9E9E9;
+            margin-left:780px;
+            padding:28px 35px 0;
+        .reg{
+            width:303px;
+            height:25px;
+            margin:0 auto;
+            h2{
+                width:151px;
+                height:25px;
+                text-align:center;
+                line-height:25px;
+                color:#DC4F45;
+                font-size:18px;
+                float:left;
+                margin:0 auto;
+            }
+            h2:nth-child(2){
+                color:#c9c9c9;
+                border-left:1px solid #DCDCDC;
+            }
+        }
+        .num{
+                width:302px;
+                height:232px;
+                padding-top:14px;
+                input{
+                    width:290px;
+                    height:38px;
+                    padding:0 5px;
+                    border-radius:2px;
+                }
+                input:nth-child(1){
+                    border:1px solid #c9c9c9;
+                }
+                input:nth-child(2){
+                    margin:10px 0 30px 0;
+                    border:1px solid #c9c9c9;
+                }
+                input:nth-child(3){
+                    width:302px;
+                    height:38px;
+                    padding:0 5px;
+                    background:#DC4F45;
+                    border-radius:2px;
+                    font-size:18px;
+                    color:white;
+                }
+                .check{
+                    height:20px;
+                    margin-top:20px;
+                    p{
+                      float:left;
+                      width:80px;
+                      height:18px;
+                      font-size:12px;
+                      color:#DC4F45;
+                      line-height: 18px;
+                      input{
+                          width:14px;
+                          height:16px;
+                      } 
+                    }
+                    a{
+                      font-size:12px;
+                      color:#DC4F45;
+                      display: block; 
+                      float:right;
+                      margin-left:10px;
+                      line-height: 18px;
+                    }   
+                }
+            }
+        }
+        //手机验证登录
+        .regBox-r{
+            width:301px;
+            height:320px;
+            background:white;
+            border:1px solid #E9E9E9;
+            margin-left:780px;
+            padding:28px 35px 0;
+        .reg{
+            width:303px;
+            height:25px;
+            margin:0 auto;
+            h2{
+                width:151px;
+                height:25px;
+                text-align:center;
+                line-height:25px;
+                color:#c9c9c9;
+                font-size:18px;
+                float:left;
+                margin:0 auto;
+            }
+            h2:nth-child(2){
+                color:#DC4F45;
+                border-left:1px solid #DCDCDC;
+            }
+        }
+        .num{
+                width:302px;
+                height:232px;
+                padding-top:14px;
+                input{
+                    width:290px;
+                    height:38px;
+                    padding:0 5px;
+                    border-radius:2px;
+                }
+                input:nth-of-type(1){
+                    border:1px solid #c9c9c9;
+                }
+                input:nth-of-type(2),input:nth-of-type(3),{
+                    float:left;
+                    width:140px;
+                    margin:10px 7px 0 0;
+                    border:1px solid #c9c9c9;
+                }
+                input:nth-of-type(4){
+                    margin-top:11px;
+                    width:140px;
+                    background: #fafafa;
+                    float:left;
+                }
+                input:nth-of-type(5){
+                    margin-top:20px;
+                    width:302px;
+                    height:38px;
+                    padding:0 5px;
+                    background:#DC4F45;
+                    border-radius:2px;
+                    font-size:18px;
+                    color:white;
+                }
+                .check{
+                    height:20px;
+                    margin-top:20px;
+                    p{
+                      float:left;
+                      width:80px;
+                      height:18px;
+                      font-size:12px;
+                      color:#DC4F45;
+                      line-height: 18px;
+                      input{
+                          width:14px;
+                          height:16px;
+                      } 
+                    }
+                    a{
+                      font-size:12px;
+                      color:#DC4F45;
+                      display: block; 
+                      float:right;
+                      margin-left:10px;
+                      line-height: 18px;
+                    }   
+                }
+        }
+        }
+
+    }  
+}

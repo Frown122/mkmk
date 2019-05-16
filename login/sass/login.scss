@@ -1,0 +1,104 @@
+@import 'public';
+#top,#order,#multiple,#cont,#cont1,#help .help-c,#bottom .bot-cont{
+  width: 1150px;
+  margin: 0 auto; 
+}
+#register{
+    background:url(../img/bj.jpg) no-repeat center;
+    .regBox{
+       width: 50px;
+       height:610px; 
+       padding-top:110px;
+       //用户注册
+       .regBox-c{
+            width:301px;
+            height:514px;
+            background:white;
+            border:1px solid #E9E9E9;
+            margin-left:780px;
+            padding:28px 35px 0;
+        .reg{
+            width:303px;
+            height:25px;
+            text-align:center;
+            margin-bottom:10px;
+            h2{
+                line-height:25px;
+                color:#DC4F45;
+                font-size:18px;
+            }
+        }
+        .num{
+                width:302px;
+                height:232px;
+                padding-top:14px;
+                input{
+                    width:290px;
+                    height:38px;
+                    padding:0 5px;
+                    border-radius:2px;
+                    margin-bottom:11px;
+                }
+                input:nth-of-type(1),input:nth-of-type(2),input:nth-of-type(3),input:nth-of-type(7){
+                    
+                    border:1px solid #c9c9c9;
+                }
+                input:nth-of-type(4),input:nth-of-type(5){
+                    width:140px;
+                    border:1px solid #c9c9c9;
+                    float:left;
+                }
+                input:nth-of-type(6){
+                    width:140px;
+                    background: #fafafa;
+                    float:right;
+                }
+                input:nth-of-type(8){
+                    margin-top:20px;
+                    width:302px;
+                    height:38px;
+                    padding:0 5px;
+                    background:#DC4F45;
+                    border-radius:2px;
+                    font-size:18px;
+                    color:white;
+                }
+              }
+                .check{
+                    height:20px;
+                    margin-top:20px;
+                    .read{
+                      float:left;
+                      width:290px;
+                      height:18px;
+                      font-size:12px;
+                      color:black;
+                      line-height:18px;
+                      input{
+                          width:14px;
+                          height:16px;
+                          float:left;
+                      }
+                      p{
+                          float:left;
+                      }
+                      h3{
+                        font-size:12px;
+                        color:black;
+                        float:left;
+                        a{
+                          font-size:12px;
+                          color:#2a99fa;
+                          display: block; 
+                          float:right;
+                          line-height: 18px;
+                        }
+                        a:nth-child(2){
+                            color:black;
+                        }  
+                      }  
+                    }   
+                }
+        }
+    }  
+}
